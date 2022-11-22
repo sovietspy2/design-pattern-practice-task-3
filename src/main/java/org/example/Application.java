@@ -18,7 +18,7 @@ public class Application {
 
         List<String> customers = customerService.getCustomers();
 
-        List<String> products = productService.getCustomers();
+        List<String> products = productService.getProducts();
 
         assert products.equals(List.of("Toy Gun", "Space Gun"));
         assert customers.equals(List.of("Bob", "Billy"));

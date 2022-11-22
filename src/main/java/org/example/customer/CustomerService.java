@@ -26,7 +26,6 @@ public class CustomerService {
         return null;
     }
 
-    // Do not change this method
     public List<String> getCustomers() throws SQLException {
 
         Connection connection = basicConnectionPool.getConnection();

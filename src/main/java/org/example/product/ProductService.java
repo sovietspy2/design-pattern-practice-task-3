@@ -20,8 +20,7 @@ public class ProductService {
     public ProductService() throws InterruptedException {
     }
 
-    // Do not change this method
-    public List<String> getCustomers() throws SQLException {
+    public List<String> getProducts() throws SQLException {
 
         Connection connection = basicConnectionPool.getConnection();
 
